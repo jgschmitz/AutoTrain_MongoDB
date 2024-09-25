@@ -1,7 +1,12 @@
 # 🤗 AutoTrain Hugging Face -> MongoDB
 Repo to accompany Cisco Webinar on 09/25/2024
 
-Start by chunking your data  - season to taste
+First install requirements.txt
+```
+pip install -r requirements.txt
+```
+
+then you can chunk your data  - season to taste
 ```
 from datasets import load_dataset
 
