@@ -1,6 +1,8 @@
 # 🤗 AutoTrain Hugging Face -> MongoDB
 Repo to accompany Cisco Webinar on 09/25/2024
 
+Grab a model from here -> https://www.kaggle.com/datasets?fileType=csv
+
 First install requirements.txt
 ```
 pip install -r requirements.txt
