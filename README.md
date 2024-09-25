@@ -13,7 +13,7 @@ then you can chunk your data  - season to taste
 from datasets import load_dataset
 
 # Load the dataset from Hugging Face
-dataset = load_dataset('Schmitz005/kaggle-recipe')
+dataset = load_dataset('User Dir/kaggle-recipe')
 
 # Total number of rows
 total_rows = len(dataset['train'])
