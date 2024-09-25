@@ -33,7 +33,7 @@ import subprocess
 from huggingface_hub import login
 
 # Log into Hugging Face with your write token
-login(token="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")
+login(token="PUT YOUR HF TOKEN HERE")
 
 # Run the AutoTrain text-generation command using subprocess
 command = [
