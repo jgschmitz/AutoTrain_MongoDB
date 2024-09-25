@@ -53,3 +53,12 @@ command = [
     "--batch-size", "8",  # Batch size
 ]
 ```
+Once this completes you should have a saved_model directory should have these files
+```
+config.json
+model.safetensors
+special_tokens_map.json
+tokenizer_config.json
+vocab.txt
+```
+Once you have the model you can further tune and work with it as much as you like!
