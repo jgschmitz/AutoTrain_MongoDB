@@ -32,7 +32,7 @@ for i in range(0, total_rows, chunk_size):
     chunk = chunk.class_encode_column('source')
     
     # Optionally push each chunk to Hugging Face, or save it locally
-    chunk.push_to_hub(f"Schmitz005/kaggle-recipe-categorized-chunk-{i // chunk_size + 1}")
+    chunk.push_to_hub('User Dir'/kaggle-recipe-categorized-chunk-{i // chunk_size + 1}")
 ```
 You can then run this on your existing chunks
 ```
