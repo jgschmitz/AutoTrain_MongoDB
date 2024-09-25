@@ -61,4 +61,4 @@ special_tokens_map.json
 tokenizer_config.json
 vocab.txt
 ```
-Once you have the model you can further tune and work with it as much as you like!
+You now have the model you can further tune and work with it as much as you like!
